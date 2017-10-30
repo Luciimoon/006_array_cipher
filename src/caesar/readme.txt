@@ -12,10 +12,28 @@ b - key --> A, c - key --> b
 --------------
 
 
+
 --------------CLASS BeginHere -------------
 
-
+ /*
+		String msg = "Would you like to encode a plain text message?";
+		int confirm = JOptionPane.showConfirmDialog(null,msg);
+		*/
+		//Scanner kbd = new Scanner(System.in);
+		
+		
+		//System.out.println("Please enter the plain text to encode:");
+		//String plainText = kbd.nextLine().toLowerCase();
+		
+		
+		
+		//int key = kbd.nextInt();
+		// System.out.println("Your key is: " + key);
+		
+		//System.out.println("Your secret message is: " + codedText);
+		
 -------------------------------------------
+
 
 
 --------------CLASS CaesarCipher-----------
@@ -51,6 +69,9 @@ b - key --> A, c - key --> b
 	 
 	 
 	 // System.out.println("index = " + index);
+	 
+	 
+	
 
 
 

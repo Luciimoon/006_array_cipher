@@ -1,0 +1,32 @@
+Grade Checkpoint #1: encoding
+	
+1. JOP - No Scanner, No syso's
+2. executable jar
+3. JOP drop-down - ask do you want to encode, decode, crack, or exit?
+	-- use a switch-case, branch, right now we only have encode
+4. for encoding - ask for the plain text msg
+5. ask for the key
+6. display the encoded msg
+7. loop - ask "Do you want to encode another msg? (Y/N)" (trap errors)
+	--either go again, or exit
+
+
+
+Grade Checkpoint #2: decoding
+	
+1. All JOP's, executable jar(no Scanner or syso's)
+2. Select decode, you enter the coded msg
+3. Enter the key
+4. Program decodes, JOP's the decoded msg
+ 	-- How? when you encode you shift alpha to the right (add key)l decode reverses that, shift alpha to the left(subtract key).
+ 	-- z-wrap becomes the a-wrap 
+	
+	
+	
+	
+(NTFS) - use drop-down JOP's here)
+	
+	
+	
+	
+Grade Checkpoint #3: cracking (don't know the key)

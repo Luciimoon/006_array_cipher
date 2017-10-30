@@ -19,11 +19,14 @@ public class caesarCipher {
 				index = alpha.indexOf(plainText.charAt(i));
 				keyAdded = (index + key) % alpha.length();
 				secretText = secretText + alpha.charAt(keyAdded);
+				
 			} else {
 				secretText = secretText + " ";
 			}
+			
 
 		}
+		
 
 		return secretText;
 
